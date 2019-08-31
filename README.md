@@ -10,4 +10,4 @@ This repository contains a small web page that can be used as a OBS Widget.
 ### Notes
  - Nicknames are case sensitive.
  - You are required to have your own Faceit api_key (client_side), visit [Faceit API Docs](https://developers.faceit.com/docs/auth/api_keys) for more information.
-
+ - Data updates every 30 seconds.
