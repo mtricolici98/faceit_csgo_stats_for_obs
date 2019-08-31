@@ -1,0 +1,20 @@
+p, label {
+    text-align: center;
+}
+
+p{
+    font-size: 120%;
+}
+.playerstats {
+    background: #4e555b;
+    color: snow;
+}
+
+.main-container{
+    width: 400px;
+}
+
+.stats-field {
+    width: 50%;
+    padding: 1pt;
+}

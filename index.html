@@ -1,0 +1,58 @@
+<html>
+<head>
+    <script src="./res/jquery-3.4.1.min.js"></script>
+    <script src="./res/bootstrap-4.0.0-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="/res/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="main-container">
+            <div class="card playerstats">
+                <div class="card-body">
+                    <p class="h5 card-title">
+                        Faceit Stats CS:GO
+                    </p>
+                    <div class="card-text">
+                        <div class="row">
+                            <div class="stats-field">
+                                <div class="row"><label class="col-6">Level </label>
+                                    <p id="faceitlvl" class="col-6 faceit-lvl"></p></div>
+                            </div>
+                            <div class="stats-field">
+                                <div class="row">
+                                    <label class="col-6">ELO</label>
+                                    <p id="faceitelo" class="col-6 faceit-elo"></p></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="stats-field">
+                                <div class="row">
+                                    <label class="col-8">Wins today</label>
+                                    <p id="wontoday" class="col-4 game-won"></p></div>
+                            </div>
+                            <div class="stats-field">
+                                <div class="row">
+                                    <label class="col-8">Games today</label>
+
+                                    <p id="totaltoday" class="col-4 games-total"></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="col-12">
+                            <img class="img-fluid"
+                                 src="https://developers.faceit.com/static/media/RGB_FACEIT_Logo_Bright.c3553633.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
